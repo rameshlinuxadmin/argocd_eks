@@ -26,6 +26,8 @@ spec:
       server: "*"
     - namespace: envoy-gateway
       server: "*"
+    - namespace: argocd
+      server: "*"
   clusterResourceWhitelist:
     - group: ""
       kind: Namespace
@@ -45,3 +47,5 @@ spec:
       kind: IngressClassParams
     - group: gateway.networking.k8s.io
       kind: GatewayClass
+    - group: argoproj.io
+      kind: "*"
