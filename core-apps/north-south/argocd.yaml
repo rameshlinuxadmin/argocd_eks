@@ -23,7 +23,8 @@ spec:
         server: "{{server}}"
         namespace: argocd
       syncPolicy:
-        # automated:
-        #   prune: true
+        automated:
+          prune: true
         syncOptions:
           - PruneLast=true
+          - ServerSideApply=true
