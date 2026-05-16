@@ -28,6 +28,10 @@ spec:
       server: "*"
     - namespace: argocd
       server: "*"
+    - namespace: default
+      server: "*"
+    - namespace: argorollouts
+      server: "*"
   clusterResourceWhitelist:
     - group: ""
       kind: Namespace
@@ -47,5 +51,3 @@ spec:
       kind: IngressClassParams
     - group: gateway.networking.k8s.io
       kind: GatewayClass
-    - group: argoproj.io
-      kind: "*"
