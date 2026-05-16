@@ -11,8 +11,6 @@ spec:
   template:
     metadata:
       name: "{{name}}-argocd"
-      labels:
-        freewheel.tv/app: argocd
       annotations:
         argocd.argoproj.io/manifest-generate-paths: .
     spec:
