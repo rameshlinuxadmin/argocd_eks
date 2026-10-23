@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/rameshlinuxadmin/argocd_eks.git",
+          "subdir": "argocd"
+        }
+      },
+      "version": "main"
+    }
+  ],
+  "legacyImports": true
+}
