@@ -4,7 +4,7 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/rameshlinuxadmin/jenkins.git",
+          "remote": "https://github.com/rameshlinuxadmin/jenkins.git"
         }
       },
       "version": "main"
