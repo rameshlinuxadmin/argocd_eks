@@ -4,8 +4,7 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/rameshlinuxadmin/argocd_eks.git",
-          "subdir": "argocd"
+          "remote": "https://github.com/rameshlinuxadmin/jenkins.git",
         }
       },
       "version": "main"
