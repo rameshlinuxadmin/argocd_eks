@@ -10,7 +10,7 @@ spec:
     - clusters: {}
   template:
     metadata:
-      name: "{{name}}-argocd"
+      name: "argocd"
       annotations:
         argocd.argoproj.io/manifest-generate-paths: .
     spec:
