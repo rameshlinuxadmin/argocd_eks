@@ -6,7 +6,7 @@ metadata:
   labels:
     freewheel.tv/app: core-apps
 spec:
-  project: core
+  project: default
   source:
     repoURL: https://github.com/rameshlinuxadmin/argocd_eks
     targetRevision: HEAD
